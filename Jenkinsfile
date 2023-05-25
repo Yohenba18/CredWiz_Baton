@@ -31,7 +31,7 @@ pipeline {
     stage('Deploy Staging') {
       steps {
         echo 'Deploy to staging environment'
-        input 'OK to deploy to product'
+
       }
     }
 
